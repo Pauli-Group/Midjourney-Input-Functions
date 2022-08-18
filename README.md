@@ -43,3 +43,19 @@ By inputting the above string into Midjourney, the below images are generated.
 
 ![image](https://user-images.githubusercontent.com/94141481/185480199-788d68e5-3adb-4b85-b8ac-6fb1bdd5b10e.png)
 
+With a 256-bit example, setting the following parameters,
+
+___Public Key: 0x5ba47e516430a9e51736baa1886915114bc16a117d0e744615d1dbcef4e1a20888d94dcd9f4587bf688d8a624dbda34
+5064fd711d471a545cc53b2d350cfa29f___
+
+___Hint: 0x7f036a6f306ed5a9d52aa8ee4fac1134ea5663afd022bb57fea6ee0000000000___
+
+The program then yields,
+
+___Intricate Expressionism Drawing::0.734375 #C1BB56::0.3046875 Infinitesimal::0.31640625 Uncompensated::0.95703125 Buffalo::0.69921875 Slowly::0.328125 Movingly::0.9765625 Astonish::0.07421875 Considering::0.98828125 Depilous::0.0 Pen::1 Afghanistan::0.99609375 --stylize 17507.5___
+
+Again, inputting said sentence into Midjourney, the following images are produced.
+
+![EllaCeroni_Intricate_Expressionism_Drawing_18ff29f2-3f5b-4e47-b4c1-dee7471a116e](https://user-images.githubusercontent.com/94141481/185482161-e36bf431-d191-4946-90a3-80117fecf0db.png)
+
+
