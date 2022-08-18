@@ -19,10 +19,12 @@ Within the getValues() function, the 'result' binary string is iterated through,
 The case utilized to explain the getValues() function above exemplifies its first execution in the written program. Within a while loop - executed under the condition that the end of the master list of nested lists has not yet been reached, the _start_ value (upon each iteration) becomes the previous _end_ value, and the _end_ value becomes the logarithm base two of the length of the subsequent list within the master list. The 'decimal' variable holding each calculated integer index is, likewise, reset to zero upon each iteration. 
 
 # Output Organization
-The aforementioned 'weights' values are added together from the 'sum' list and stored in a 'test' variable. If the sum of the yielded weights is positive, the function proceeds to print values in a Midjourney-compatible fashion. If the sum of the yielded weights is negative, however, the MidJourney prompt will not proceed. In that case, all weights are flipped to be positive and values are printed in the same manner.
+The aforementioned 'weights' values are added together from the 'sum' list and stored in a 'test' variable. If the sum of the yielded weights is positive, the function proceeds to print values in a Midjourney-compatible fashion. If the sum of the yielded weights is negative, however, the MidJourney prompt will not proceed. In that case, all weights are flipped to be positive and values are printed in the same manner. Weights are attached to terms via '::' syntax. As shown below, '--stylize x' and '--seed y' follow this format accordingly.
 
 The 512-bit version follows the former of the below sentence structures. The 256-bit version follows the latter.
 
 ___A [detail][styles] with [colours][adjectives][adjectives][characters][adverbs][adverbs][verbs][prepositions][colours][adjectives][adjectives][objects][adverbs][verbs] and [colours][adjectives][adjectives][objects] in [emotions][locations][time period] in style of [artists] --stylize x -- seed y.___
 
 ___A [detail][styles] with [colours][adjectives][adjectives][characters][adverbs][adverbs][verbs][prepositions][colours][adjectives][adjectives][objects] in [locations] --stylize x.___
+
+# Examples
