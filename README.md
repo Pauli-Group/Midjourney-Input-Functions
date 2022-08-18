@@ -43,7 +43,7 @@ By inputting the above string into Midjourney, the below images are generated.
 
 ![image](https://user-images.githubusercontent.com/94141481/185480199-788d68e5-3adb-4b85-b8ac-6fb1bdd5b10e.png)
 
-With a 256-bit example, setting the following parameters,
+Using the following parameters within a 256-bit example,
 
 ___Public Key: 0x5ba47e516430a9e51736baa1886915114bc16a117d0e744615d1dbcef4e1a20888d94dcd9f4587bf688d8a624dbda34
 5064fd711d471a545cc53b2d350cfa29f___
