@@ -30,8 +30,8 @@ ___A [detail][styles] with [colours][adjectives][adjectives][characters][adverbs
 # Examples
 Beginning with a 512-bit version example, a public key and hint must be inputted to the function. At random selection,
 
-___Public Key: 0xc0c3faf649e94b99359de1bd62dbf25f241a36c0ddb14a3e9c433fea15f4d45fc4bde7f8a7d1a5cc0c4f757d7fee90ca257f359
-ed711300c09a13fa5592b2c28____
+___Public Key: 0xc0c3faf649e94b99359de1bd62dbf25f241a36c0ddb14a3e9c433fea15f4d45fc4bde7f8a7d1a5cc0c4f757d7fee90c
+a257f359ed711300c09a13fa5592b2c28____
 
 ___Hint: 0x64d44d13ed89b7cb9e592a78287544770260c95692c781844623f00000000000____
 
