@@ -2,7 +2,7 @@
 __A 512-bit and 256-bit version of a Python program that deterministically converts cryptographic public keys and hints to a sentence string for AI image generation. This project was motivated for the purpose of producing NFT art for _Pauli Group's_ post-quantum cryptographic challenges.__
 
 # Initialization
-The program begins by inputting Python's built-in Math module, as well as the contents of the separate, list-containing file. This IPYNB notebook houses extensive lists, ranging from two bits to twenty bits in length. Each list corresponds to a particular genre of terms; that is, adjectives, nouns, adverbs, styles, emotions, and more. Some lists are entirely numerical, which are later referenced as image weightings, seed values, and stylize values. In the main program, a master list containing the nested lists is generated in the _general_ framework of which the final sentence will be outputted. This means repetitions of particular lists are included. Note that the cummulative bit usage of said nested lists sums to either 512 or 256 for the 512-bit version and 256-bit version, respectively. A secondary master list is created identical to the first, however, each element holds a string of the title of each nested list in the former. This serves an iterative purpose only.
+The program begins by inputting Python's built-in Math module, as well as the contents of the separate, list-containing file. This IPYNB notebook houses extensive lists, ranging from two bits to twenty bits in length. Each list corresponds to a particular genre of terms; that is, adjectives, nouns, adverbs, styles, emotions, and more. Some lists are entirely numerical, which are later referenced as image weightings, seed values, and stylize values. In the main program, a master list containing the nested lists is generated in the _general_ framework for which the final sentence will be outputted. This means repetitions of particular lists are included. Note that the cummulative bit usage of said nested lists sums to either 512 or 256 for the 512-bit version and 256-bit version, respectively. A secondary master list is created identical to the first, however, each element holds a string of the title of each nested list in the former. This serves an iterative purpose only.
 
 # Binary Generation
 The user is prompted to input both the public key and hint from the cryptographic challenge. '0x' is then removed from the beginning of each. The process for which the public key and hint are converted to their binary form differs slightly between the 512-bit version and 256-bit version. 
@@ -54,8 +54,8 @@ The program then yields,
 
 ___Intricate Expressionism Drawing::0.734375 #C1BB56::0.3046875 Infinitesimal::0.31640625 Uncompensated::0.95703125 Buffalo::0.69921875 Slowly::0.328125 Movingly::0.9765625 Astonish::0.07421875 Considering::0.98828125 Depilous::0.0 Pen::1 Afghanistan::0.99609375 --stylize 17507.5___
 
-Again, inputting said sentence into Midjourney, the following images are produced.
+Again, inputting this sentence into Midjourney, the following images are produced.
 
 ![EllaCeroni_Intricate_Expressionism_Drawing_18ff29f2-3f5b-4e47-b4c1-dee7471a116e](https://user-images.githubusercontent.com/94141481/185482161-e36bf431-d191-4946-90a3-80117fecf0db.png)
 
-
+Note that this function - presently - requires manual implementation of the outputted sentence into Midjourney's framework. Future integrations derived by _Pauli Group_ will be found at proof-of-quantum.com.
