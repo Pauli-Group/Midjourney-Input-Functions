@@ -37,8 +37,9 @@ ___Hint: 0x64d44d13ed89b7cb9e592a78287544770260c95692c781844623f00000000000___
 
 The program then yields, 
 
-___Intricate Realism Oil Painting::0.16015625 #7326B3::0.46875 Extraversive::0.82421875 Urbanized::0.2578125 Fish::0.59375 Grossly::0.89453125 Epidemically::0.421875 Imply::0.0625 Through::0.98828125 #42BE9A::0.08984375 Osteal::0.265625 Vulvar::0.85546875 Coffee::0.12890625 Positively::0.79296875 Caper::0.875 #A1D511::0.71875 Ascendant::0.5703125 Unsightly::0.30859375 Parallelogram::0.2421875 Brazen::0.86328125 Manor House::1 The Stone Age::1 Jock Sturges::1 --stylize 13586.5 --seed 1038259___
+___Intricate Realism Oil Painting::0.16015625 #7326B3::0.46875 Extraversive::0.82421875 Urbanized::0.2578125 Fish::0.59375 Grossly::0.89453125 Epidemically::0.421875 Imply::0.0625 Through::0.98828125 #42BE9A::0.08984375 Osteal::0.265625 Vagous::0.85546875 Coffee::0.12890625 Positively::0.79296875 Caper::0.875 #A1D511::0.71875 Ascendant::0.5703125 Unsightly::0.30859375 Parallelogram::0.2421875 Brazen::0.86328125 Manor House::1 The Stone Age::1 Donatello::1 --stylize 13586.5 --seed 1038259___
 
-By inputting the above string into Midjourney, the below image is generated.
+By inputting the above string into Midjourney, the below images are generated.
 
+![image](https://user-images.githubusercontent.com/94141481/185480199-788d68e5-3adb-4b85-b8ac-6fb1bdd5b10e.png)
 
