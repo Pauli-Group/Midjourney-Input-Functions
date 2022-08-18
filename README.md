@@ -22,4 +22,5 @@ The case utilized to explain the getValues() function above exemplifies its firs
 The aforementioned 'weights' values are added together from the 'sum' list and stored in a 'test' variable. If the sum of the yielded weights is positive, the function proceeds to print values in a Midjourney-compatible fashion. If the sum of the yielded weights is negative, however, the MidJourney prompt will not proceed. In that case, all weights are flipped to be positive and values are printed in the same manner.
 
 The 512-bit version follows the former of the below sentence flows. The 256-bit version follows the latter.
-A \[detail]\[styles] with \[colours]\[adjectives][adjectives][characters][adverbs][adverbs][verbs][prepositions][colours][adjectives][adjectives][objects][adverbs][verbs] and [colours][adjectives][adjectives][objects] in [emotions][locations][time period] in style of [artists] --stylize x -- seed y.
+
+___A [detail][styles] with [colours][adjectives][adjectives][characters][adverbs][adverbs][verbs][prepositions][colours][adjectives][adjectives][objects][adverbs][verbs] and [colours][adjectives][adjectives][objects] in [emotions][locations][time period] in style of [artists] --stylize x -- seed y.___
