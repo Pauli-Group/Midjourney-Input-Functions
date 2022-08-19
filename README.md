@@ -52,10 +52,10 @@ ___Hint: 0x7f036a6f306ed5a9d52aa8ee4fac1134ea5663afd022bb57fea6ee0000000000___
 
 The program then yields,
 
-___Intricate Expressionism Drawing::0.734375 #C1BB56::0.3046875 Infinitesimal::0.31640625 Uncompensated::0.95703125 Buffalo::0.69921875 Slowly::0.328125 Movingly::0.9765625 Astonish::0.07421875 Considering::0.98828125 Depilous::0.0 Pen::1 Afghanistan::0.99609375 --stylize 17507.5___
+___Detailed Renaissance Selfie::0.984375 #6E4499::0.06640625 Maturational::0.04296875 Splanchnic::0.93359375 Kangaroo::0.3828125 Avoidably::0.91796875 Lousily::0.16796875 Modify::0.71875 But::0.7734375 Meiotic::0.46875 Pen::1 Afghanistan::1 --stylize 16164.5___
 
 Again, inputting this sentence into Midjourney, the following images are produced.
 
-![EllaCeroni_Intricate_Expressionism_Drawing_18ff29f2-3f5b-4e47-b4c1-dee7471a116e](https://user-images.githubusercontent.com/94141481/185482161-e36bf431-d191-4946-90a3-80117fecf0db.png)
+![EllaCeroni_Detailed_Renaissance_Selfie_ea012ed7-5b7f-48fa-bba5-dc6a351867ef](https://user-images.githubusercontent.com/94141481/185631885-62d011a1-909a-4a5f-9545-416efb921ac3.png)
 
 Note that this function - presently - requires manual implementation of the outputted sentence into Midjourney's framework. Future integrations derived by _Pauli Group_ will be found at proof-of-quantum.com.
