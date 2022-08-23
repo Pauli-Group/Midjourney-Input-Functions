@@ -60,4 +60,13 @@ Again, inputting this sentence into Midjourney, the following images are produce
 
 # Discord API
 
+To gain access to the developer screen on Discord, Discord Canary must be downloaded. 
+For Windows;  https://discord.com/api/canary/download?platform=win
+For Mac; https://discord.com/api/canary/download?platform=osx
+For Linux;  https://discord.com/api/canary/download?platform=linux
 
+To open the developer screen, press 'CTRL + SHIFT + I' on Windows, or 'OPTION + COMMAND + I' on Mac. Next, send a random message on the channel of which the Python script will be linked to. A file titled 'messages' will appear on the developer screen. Once selected, a file saturated with URL's, ID's, and codes will appear.
+
+Sending Discord messages via a Python script is rather simple. Firstly, the 'requests' module must be imported. A dictionary entitled 'payload' is then created, which stores a 'content' element (found under 'Request Payload' section of developer screen) and an assigned variable randomly titled, 'x', which will later hold the string to be printed as a Discord message. Another dictionary entitled 'header' is generated. It will store an 'authorization' element, and its respective code, which is found under the 'Request Header' section of the developer screen. Remember to utilize strings for each element. An instance of these variables is created with requests.post() syntax, housing the 'Request URL' (found at top of developer screen), payload, and header, as the first, second, and third parameter, respectively. By inputting a value for 'x', said value will be printed to the Discord channel once the program is run.
+
+To scrape a channel for its content - which is the image product of running the Midjourney Discord bot - both the 'requests' module and 'json' module must be imported. A function entitled 'retrieve_messages' is created, with the single parameter being the channel ID. The same 'headers' dictionary is generated with the appropriate 'authorization' key. An instance of this variable is created using requests.get(syntax), with a 'Request URL' _framework_ as the first paramater. Note that an 'f' string is used, setting the channel ID section of the URL to the appropriate variable. This allows the user to, later on, call the function for various channels. A 'jsonn' variable is created, which essentially parses through the scraped content. The for-loop allows us to print said content. Calling the function with the channel ID of interest will return the channel content, which, for this case, would be the Midjourney images. 
