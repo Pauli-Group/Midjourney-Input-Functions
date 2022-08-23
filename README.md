@@ -58,4 +58,8 @@ Again, inputting this sentence into Midjourney, the following images are produce
 
 ![EllaCeroni_Detailed_Renaissance_Selfie_ea012ed7-5b7f-48fa-bba5-dc6a351867ef](https://user-images.githubusercontent.com/94141481/185631885-62d011a1-909a-4a5f-9545-416efb921ac3.png)
 
-Note that this function - presently - requires manual implementation of the outputted sentence into Midjourney's framework. Future integrations derived by _Pauli Group_ will be found at proof-of-quantum.com.
+Integrations of this program derived by _Pauli Group_ will be found at proof-of-quantum.com.
+
+# Discord API
+
+
